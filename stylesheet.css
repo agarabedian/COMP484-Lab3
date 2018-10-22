@@ -1,36 +1,12 @@
-    h1 {
-        text-align: center;
-        font-size: 12pt;
-        color: pink;
-        margin-bottom: 5px;
-        text-decoration: underline;
+
+    header{
+         background-color: lightgrey;
+    }
+    footer{
+        background-color: lightgrey;
     }
     img{
-        background-color: lightgrey;
+        height: 128px;
+        width: 128px;
         float: left;
-    }
-  
-    table {
-        margin: 5px;
-        width: 290px;
-    }
-  
-    th {
-        padding: 3px;
-    }
-  
-    td {
-        padding-left: 8px;
-        padding-right: 8px;
-        border: 1px solid #990000;
-        background-color: #ffffcc;
-    }
-
-    #trHeader {
-        text-decoration: underline;
-        color: #990000;
-    }
-  
-    .centerCell {
-        text-align: center;
     }
