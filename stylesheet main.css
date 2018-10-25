@@ -10,6 +10,10 @@
         width: 128px;
         float: left;
     }
+    address{
+        float: right;
+    }
+    
     .clear{
         clear: left;
     }
@@ -21,4 +25,10 @@
         position: absolute;
         top: 2%;
         right: 3%;
+    }
+    .contact{
+        position: relative;
+        top: 90%;
+        left: 90%;
+        
     }
