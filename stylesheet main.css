@@ -10,3 +10,15 @@
         width: 128px;
         float: left;
     }
+    .clear{
+        clear: left;
+    }
+    .at{
+        position: absolute;
+        left: 0%;
+    }
+    .search{
+        position: absolute;
+        top: 2%;
+        right: 3%;
+    }
