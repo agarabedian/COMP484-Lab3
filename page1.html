@@ -18,23 +18,24 @@
 		<div class="search">
 			<form method="GET" action="http://www.google.com/search">
 				<p> <label>Search: </label><input type="search" name="query"placeholder="Your query">
-					<input type="submit" name=""value="search"></p>
+					<input type="submit" name=""value="search">
 					<!-- Search Radio Buttons-->
-				<p><label><input type="radio" name="search"value="external">Search the Web</label></p>
-				<p><label><input type="radio" name="search"value="internal">Search within the Website</label></p>
+				<label><input type="radio" name="search"value="external">Search the Web</label>
+				<label><input type="radio" name="search"value="internal">Search within the Website</label>
+			</p>
 			</form>
 		</div>
 	</header>
 	<article>
-		<form method="post">
+		<form method="post" autocomplete="on">
 			<h1>Sign up today to receive updates.</h1>
-			<p><label>First Name <input type="text" name="firstName" placeholder="John"/></label></p>
-			<p><label>Last Name <input type="text" name="lastName" placeholder="Doe"/></label></p>
-			<p><label>Email <input type="email" name="email" placeholder="name@domain.com"/></label></p>
-			<p><label>Password <input type="Password" name="password"/></label></p>
-			<p><label>Re-Enter Password <input type="password" name="reEnterPassword"/></label></p>
-			<p><label>Birthdate <input type="date" name="birthdate"/></label></p>
-			<p><label for "majorList"> Major 
+			<p><label>First Name: <input type="text" name="firstName" placeholder="John"/></label></p>
+			<p><label>Last Name: <input type="text" name="lastName" placeholder="Doe"/></label></p>
+			<p><label>Email: <input type="email" name="email" placeholder="name@domain.com" autocomplete="off"/></label></p>
+			<p><label>Password: <input type="Password" name="password"/></label></p>
+			<p><label>Re-Enter Password: <input type="password" name="reEnterPassword"/></label></p>
+			<p><label>Birthdate: <input type="date" name="birthdate"/></label></p>
+			<p><label for "majorList"> Major: 
 				<input list = "majors" name="major"
 				placeholder="Select a major"/>
 				<datalist id = "majors">
@@ -48,8 +49,8 @@
 					<option value="Mechanical Engineering">	
 				</datalist>
 			</label></p>
-			<p><label>Your Favorite Color:<input type="color" name="favoriteColor"/></label></p>
-			<p><label for "collegeYearList">Number of years in college
+			<p><label>Your Favorite Color: <input type="color" name="favoriteColor"/></label></p>
+			<p><label for "collegeYearList">Number of years in college: 
 				<input list = "collegeYears" id = "collegeYearList" name="collegeYear"/>
 				<datalist id = "collegeYears">
 					<option value = "1">
@@ -58,8 +59,23 @@
 					<option value = "4">	
 				</datalist>
 			</label></p>
-			<p><label>Phone Number: <input type="tel" name="telephone"/>(###-###-####)</label></p>
-			<p><label>Link to your homepage: <input type="url" name="yourURL" novalidate></label></p>
+			<p><label>Phone Number: <input type="tel" name="telephone" autocomplete="off"/>(###-###-####)</label></p>
+			<p><label>Link to your homepage: <input type="url" name="yourURL" autocomplete="off"/></label></p>
+			<form action="">
+				<p><label>Years of experience: </label></p>
+				<p><input type="radio" name="experience" value="zerotofive">0-5</p>
+				<p><input type="radio" name="experience" value="fivetoten">5-10</p>
+				<p><input type="radio" name="experience" value="tentofifteen">10-15</p>
+				<p><input type="radio" name="experience" value="fifteentotwenty">15-20</p>
+				<p><input type="radio" name="experience" value="twentyplus">20+</p>
+			</form>
+			<p><label>Skill level in HTML<input type="range" name="skill" min="0" max="10"></label></p>
+			<p><label>Contact Preference</label></p>
+			<p><input type="checkbox" name="option1" name="preference"><label>I would like to receive emails about new products and offers</label></p>
+			<p><input type="checkbox" name="option1" name="preference"><label>I would like to receive emails about my account and membership</label></p>
+			<p><input type="checkbox" name="option1" name="preference"><label>I would like to receive mail</label></p>
+			<input type="submit" value="Sign Up">
+			<input type="reset" name="Reset">
 		</form>
 	</article>
 <footer>
