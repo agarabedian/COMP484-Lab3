@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>First Page</title>
+	<title>Sign Up</title>
 	<link href="stylesheet main.css" rel="stylesheet main" type="text/css">
 </head>
 <body>
 	<header>
-		<div>
+  <div>
 			<img src="./doge.png">
 			<img src="./at sign.png" class="at">
-		</div>
+	</div>
 
 		<p> Garabedian & Casarez Inc.<br />
 			Aram Garabedian, CEO<br />
@@ -25,20 +25,52 @@
 					<p><label><input type="radio" name="search"value="internal">Search within the Website</label></p>
 				</form>
 			</div>
-		</header>
-		<p>Oh acceptance apartments up sympathize astonished delightful. Waiting him new lasting towards. Continuing melancholy especially so to. Me unpleasing impossible in attachment announcing so astonished. What ask leaf may nor upon door. Tended remain my do stairs. Oh smiling amiable am so visited cordial in offices hearted.</p>
-		<p>Oh acceptance apartments up sympathize astonished delightful. Waiting him new lasting towards. Continuing melancholy especially so to. Me unpleasing impossible in attachment announcing so astonished. What ask leaf may nor upon door. Tended remain my do stairs. Oh smiling amiable am so visited cordial in offices hearted.</p>
-		<p>Oh acceptance apartments up sympathize astonished delightful. Waiting him new lasting towards. Continuing melancholy especially so to. Me unpleasing impossible in attachment announcing so astonished. What ask leaf may nor upon door. Tended remain my do stairs. Oh smiling amiable am so visited cordial in offices hearted.</p>
-		<p>Oh acceptance apartments up sympathize astonished delightful. Waiting him new lasting towards. Continuing melancholy especially so to. Me unpleasing impossible in attachment announcing so astonished. What ask leaf may nor upon door. Tended remain my do stairs. Oh smiling amiable am so visited cordial in offices hearted.</p>
-		<footer>
-			<img src="./normal doge.png">
+	</header>
+	<main>
+		<article>
+			<form method="post">
+				<h1>Sign up today to receive updates.</h1>
+				<p><label>First Name <input type="text" name="firstName" placeholder="John"/></label></p>
+				<p><label>Last Name <input type="text" name="lastName" placeholder="Doe"/></label></p>
+				<p><label>Email <input type="email" name="email" placeholder="name@domain.com"/></label></p>
+				<p><label>Password <input type="Password" name="password"/></label></p>
+				<p><label>Re-Enter Password <input type="password" name="reEnterPassword"/></label></p>
+				<p><label>Birthdate <input type="date" name="birthdate"/></label></p>
+				<p><label for "majorList"> Major 
+					<input list = "majors" name="major"
+					placeholder="Select a major"/>
+					<datalist id = "majors">
+						<option value="Civil Engineering">
+						<option value="Computer Engineering">
+						<option value="Computer Information Technology">
+						<option value="Computer Science">
+						<option value="Electrical Engineering">
+						<option value="Engineering Management">
+						<option value="Manufactoring Systems Engineering">
+						<option value="Mechanical Engineering">	
+					</datalist>
+				</label></p>
+				<p><label>Your Favorite Color:<input type="color" name="favoriteColor"/></label></p>
+				<p><label for "collegeYearList">Number of years in college
+					<input list = "collegeYears" id = "collegeYearList" name="collegeYear"/>
+					<datalist id = "collegeYears">
+						<option value = "1">
+						<option value = "2">
+						<option value = "3">
+						<option value = "4">	
+					</datalist>
+				</label></p>
+			</form>
+		</article>
+	</main>
+	<footer>
+  <img src="./normal doge.png">
 			<p> Garabedian & Casarez Inc.<br />
 				Oscar Casarez, CEO<br />
 				oscar@GnC.com
 			</p>
-
 			<h5>Copyright Info</h5>
 			<p>Copyright by Aram &copy; </p>
-		</footer>
-	</body>
-	</html>
+	</footer>
+</body>
+</html>
