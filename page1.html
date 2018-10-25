@@ -6,11 +6,10 @@
 </head>
 <body>
 	<header>
-  <div>
+ 		<div>
 			<img src="./doge.png">
 			<img src="./at sign.png" class="at">
-	</div>
-
+		</div>
 		<p> Garabedian & Casarez Inc.<br />
 			Aram Garabedian, CEO<br />
 			aram@GnC.com
@@ -19,51 +18,51 @@
 		<div class="search">
 			<form method="GET" action="http://www.google.com/search">
 				<p> <label>Search: </label><input type="search" name="query"placeholder="Your query">
-					<input type="submit" name=""value="search">
-					<!-- search bubble choices-->
-					<label><input type="radio" name="search"value="external">Search the Web</label>
-					<label><input type="radio" name="search"value="internal">Search within the Website</label></p>
-				</form>
-			</div>
-	</header>
-	<main>
-		<article>
-			<form method="post">
-				<h1>Sign up today to receive updates.</h1>
-				<p><label>First Name <input type="text" name="firstName" placeholder="John"/></label></p>
-				<p><label>Last Name <input type="text" name="lastName" placeholder="Doe"/></label></p>
-				<p><label>Email <input type="email" name="email" placeholder="name@domain.com"/></label></p>
-				<p><label>Password <input type="Password" name="password"/></label></p>
-				<p><label>Re-Enter Password <input type="password" name="reEnterPassword"/></label></p>
-				<p><label>Birthdate <input type="date" name="birthdate"/></label></p>
-				<p><label for "majorList"> Major 
-					<input list = "majors" name="major"
-					placeholder="Select a major"/>
-					<datalist id = "majors">
-						<option value="Civil Engineering">
-						<option value="Computer Engineering">
-						<option value="Computer Information Technology">
-						<option value="Computer Science">
-						<option value="Electrical Engineering">
-						<option value="Engineering Management">
-						<option value="Manufactoring Systems Engineering">
-						<option value="Mechanical Engineering">	
-					</datalist>
-				</label></p>
-				<p><label>Your Favorite Color:<input type="color" name="favoriteColor"/></label></p>
-				<p><label for "collegeYearList">Number of years in college
-					<input list = "collegeYears" id = "collegeYearList" name="collegeYear"/>
-					<datalist id = "collegeYears">
-						<option value = "1">
-						<option value = "2">
-						<option value = "3">
-						<option value = "4">	
-					</datalist>
-				</label></p>
+					<input type="submit" name=""value="search"></p>
+					<!-- Search Radio Buttons-->
+				<p><label><input type="radio" name="search"value="external">Search the Web</label></p>
+				<p><label><input type="radio" name="search"value="internal">Search within the Website</label></p>
 			</form>
-		</article>
-	</main>
-	<footer>
+		</div>
+	</header>
+	<article>
+		<form method="post">
+			<h1>Sign up today to receive updates.</h1>
+			<p><label>First Name <input type="text" name="firstName" placeholder="John"/></label></p>
+			<p><label>Last Name <input type="text" name="lastName" placeholder="Doe"/></label></p>
+			<p><label>Email <input type="email" name="email" placeholder="name@domain.com"/></label></p>
+			<p><label>Password <input type="Password" name="password"/></label></p>
+			<p><label>Re-Enter Password <input type="password" name="reEnterPassword"/></label></p>
+			<p><label>Birthdate <input type="date" name="birthdate"/></label></p>
+			<p><label for "majorList"> Major 
+				<input list = "majors" name="major"
+				placeholder="Select a major"/>
+				<datalist id = "majors">
+					<option value="Civil Engineering">
+					<option value="Computer Engineering">
+					<option value="Computer Information Technology">
+					<option value="Computer Science">
+					<option value="Electrical Engineering">
+					<option value="Engineering Management">
+					<option value="Manufactoring Systems Engineering">
+					<option value="Mechanical Engineering">	
+				</datalist>
+			</label></p>
+			<p><label>Your Favorite Color:<input type="color" name="favoriteColor"/></label></p>
+			<p><label for "collegeYearList">Number of years in college
+				<input list = "collegeYears" id = "collegeYearList" name="collegeYear"/>
+				<datalist id = "collegeYears">
+					<option value = "1">
+					<option value = "2">
+					<option value = "3">
+					<option value = "4">	
+				</datalist>
+			</label></p>
+			<p><label>Phone Number: <input type="tel" name="telephone"/>(###-###-####)</label></p>
+			<p><label>Link to your homepage: <input type="url" name="yourURL" novalidate></label></p>
+		</form>
+	</article>
+<footer>
   <img src="./normal doge.png">
 			<p> Garabedian & Casarez Inc.<br />
 				Oscar Casarez, CEO<br />
