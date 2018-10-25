@@ -11,6 +11,7 @@
         float: left;
     }
     address{
+        bottom: 10px;
         float: right;
     }
     
@@ -27,8 +28,7 @@
         right: 3%;
     }
     .contact{
-        position: relative;
-        top: 90%;
-        left: 90%;
-        
+        position: absolute;
+        bottom: -225px;
+        right: 10px;
     }
