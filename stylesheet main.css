@@ -6,12 +6,11 @@
         background-color: lightgrey;
     }
     img{
-        height: 128px;
-        width: 128px;
+        height: 64px;
+        width: 64px;
         float: left;
     }
     address{
-        bottom: 10px;
         float: right;
     }
 
@@ -38,6 +37,6 @@
     }
     .contact{
         position: absolute;
-        bottom: -225px;
+        bottom: -160px;
         right: 10px;
     }
