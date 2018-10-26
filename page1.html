@@ -56,13 +56,13 @@
 			<p><label>Your Favorite Color: <input type="color" name="favoriteColor"/></label></p>
 
 			<p><label>Number of years in college: 
-				<input list = "collegeYears" name="collegeYear"/>
-				<datalist id = "collegeYears">
-					<option value = "1"></option>
-					<option value = "2"></option>
-					<option value = "3"></option>
-					<option value = "4"></option>	
-				</datalist>
+				<select>
+					<option selected disabled hidden value="none">[choose]</option>
+					<option value = "1">1</option>
+					<option value = "2">2</option>
+					<option value = "3">3</option>
+					<option value = "4">4</option>
+				</select>
 			</label></p>
 			<p><label>Phone Number:</label><input type="tel" name="telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="off">(###-###-####)</p>
 
