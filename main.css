@@ -1,0 +1,36 @@
+header{
+	 background-color: lightgrey;
+}
+footer{
+	background-color: lightgrey;
+	overflow: auto;
+	clear: both;
+}
+img{
+	height: 64px;
+	width: 64px;
+	float: left;
+}
+address{
+	float: right;
+}
+.clear{
+	clear: left;
+}
+.at{
+	position: absolute;
+	left: 0%;
+}
+.search{
+	position: absolute;
+	top: 2%;
+	right: 3%;
+}
+.alignleft{
+	float: left;
+	background-color: lightgrey;
+}
+.alignright{
+	float: right;
+	background-color: lightgrey;
+}

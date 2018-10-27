@@ -1,4 +1,21 @@
-form {
-	margin: auto;
-	width: 50%;
+.favoriteColor{
+	font-family: "Comic Sans MS";
+	color: red;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border-style: groove;
+    border-color: silver;
+    padding: 30px;
+    background-color: white;
+}
+.element{
+	text-align: center;
+}
+
+.classBody{
+	background-image: url(teardown.jpg);
+	background-repeat: repeat-y;
 }
