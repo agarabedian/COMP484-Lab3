@@ -1,0 +1,38 @@
+@media screen and (min-width: 1025px){
+	.privacyArt{
+		column-count: 4;
+		column-gap: 25px;
+		background-color: skyblue;
+	}
+}
+
+@media screen and (max-width: 1025px), screen and (min-width: 480px){
+	.privacyArt{
+		column-count: 3;
+		column-gap: 30px;
+		background-color: skyblue;
+	}
+}
+
+@media screen and (max-width: 900px), screen and (min-width: 700px){
+	.privacyArt{
+		color: purple;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.privacyArt{
+		column-count: 2;
+		column-gap: 20px;
+		background-color: silver;
+	}
+}
+
+
+@media all {
+	.privacyArt{
+		column-rule: hidden;
+		text-align: justify;
+	}
+}
