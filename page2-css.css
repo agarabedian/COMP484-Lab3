@@ -1,3 +1,8 @@
+article{
+	background-image: url(small_Image.jpg);
+	background-attachment: fixed;
+}
+
 @media screen and (min-width: 1025px){
 	.privacyArt{
 		column-count: 4;
@@ -5,31 +10,28 @@
 		background-color: skyblue;
 	}
 }
-
-@media screen and (max-width: 1025px), screen and (min-width: 480px){
+@media screen and (max-width: 1025px) and (min-width: 480px){
 	.privacyArt{
 		column-count: 3;
 		column-gap: 30px;
 		background-color: skyblue;
+		color: black;
 	}
 }
-
-@media screen and (max-width: 900px), screen and (min-width: 700px){
+@media screen and (max-width: 900px) and (min-width: 700px){
 	.privacyArt{
 		color: purple;
 		text-align: left;
 	}
 }
-
 @media screen and (max-width: 480px){
 	.privacyArt{
 		column-count: 2;
 		column-gap: 20px;
 		background-color: silver;
+		color: black;
 	}
 }
-
-
 @media all {
 	.privacyArt{
 		column-rule: hidden;
