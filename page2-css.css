@@ -1,8 +1,9 @@
 article{
-	background-image: url(small_Image.jpg);
-	background-attachment: fixed;
+	background-image: url(small_Image.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: left bottom;
 }
-
 @media screen and (min-width: 1025px){
 	.privacyArt{
 		column-count: 4;
