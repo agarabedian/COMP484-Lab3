@@ -1,8 +1,23 @@
 article{
 	background-image: url(small_Image.png);
 	background-repeat: no-repeat;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-position: left bottom;
+	float: left;
+	width: 80%;
+}
+aside .sidebar{
+	float: right;
+	background-color: red;
+	height: inherit;
+	width: 20%;
+}
+section div{
+	clear: both;
+	height: auto;
+	width: auto;
+	overflow: auto;
+	background-color: red;
 }
 @media screen and (min-width: 1025px){
 	.privacyArt{
