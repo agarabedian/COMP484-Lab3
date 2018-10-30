@@ -1,0 +1,21 @@
+html body *:hover { 
+	background-color: lightblue; 
+}
+.margin{
+	margin: 2em;
+	width: 30%;
+	height: 150px;
+	overflow: hidden;
+}
+.padding{
+	margin:2em;
+	padding: 2em;
+	width: 30%;
+	height: 150px;
+	overflow: scroll;
+}
+.map{
+	float: none;
+	width: 445px;
+	height: 188px;
+}
